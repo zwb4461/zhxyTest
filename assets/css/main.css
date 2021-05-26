@@ -1,0 +1,30 @@
+/* 页面过度效果 */
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: translatex(30px);
+  -webkit-transform: translatex(30px);
+  -moz-transform: translatex(30px);
+  -ms-transform: translatex(30px);
+  -o-transform: translatex(30px);
+}
+.page-leave-to {
+  opacity: 0;
+  transform: translatex(30px);
+  -webkit-transform: translatex(30px);
+  -moz-transform: translatex(30px);
+  -ms-transform: translatex(30px);
+  -o-transform: translatex(30px);
+}
+
+.aSelect {
+  width: 171px !important;
+}

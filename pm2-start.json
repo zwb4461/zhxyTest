@@ -1,0 +1,18 @@
+{
+    "name": "SmartCampus",
+    "script": "npm run start",
+    "cwd": "./",
+    "watch": [
+        "*"
+    ],
+    "ignore_watch": [
+        "node_modules"
+    ],
+    "watch_options": {
+        "followSymlinks": false
+    },
+    "env": {
+        "NODE_ENV": "production",
+        "NODE_API_BASE": "h-api"
+    }
+}

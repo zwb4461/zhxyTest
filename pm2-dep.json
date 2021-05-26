@@ -1,0 +1,14 @@
+{
+    "name": "SmartCampus",
+    "script": "npm run dep",
+    "cwd": "./",
+    "watch": [
+        ".nuxt"
+    ],
+    "ignore_watch": [
+        "node_modules"
+    ],
+    "watch_options": {
+        "followSymlinks": false
+    }
+}
